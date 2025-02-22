@@ -210,10 +210,10 @@ public class NiceXWPFDocument extends XWPFDocument {
             if (fmt == STNumberFormat.BULLET) {
                 cTLvl.addNewLvlJc().setVal(STJc.LEFT);
                 CTRPr addNewRPr = cTLvl.addNewRPr();
-                CTFonts ctFonts = addNewRPr.addNewRFonts();
-                ctFonts.setAscii("Wingdings");
-                ctFonts.setHAnsi("Wingdings");
-                ctFonts.setHint(STHint.DEFAULT);
+                // CTFonts ctFonts = addNewRPr.addNewRFonts();
+                // ctFonts.setAscii("Wingdings");
+                // ctFonts.setHAnsi("Wingdings");
+                //ctFonts.setHint(STHint.DEFAULT);
             }
         }
 
